@@ -54,4 +54,4 @@ as **SDL** and **pygame**.
 .. note::
   
   I don't know this area well! If you can expand and improve this section,
-  you're welcome to make a pull request.
+  please contribute.

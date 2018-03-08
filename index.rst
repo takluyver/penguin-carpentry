@@ -14,7 +14,8 @@ refer the 'Linux desktop' for convenience.
    :caption: Contents:
 
    ui
-
+   launchers
+   file-associations
 
 Indices and tables
 ==================
