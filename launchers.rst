@@ -27,6 +27,7 @@ The command is the filename. By convention, it should be lower case. If you
 want to use more than one word, separate them with hyphens, e.g.
 ``chromium-browser``.
 
+.. index:: desktop entry
 .. _desktop-file:
 
 Desktop launcher
