@@ -15,6 +15,7 @@ refer the 'Linux desktop' for convenience.
 
    ui
    launchers
+   notifications
 
 Indices and tables
 ==================
