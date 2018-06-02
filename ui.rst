@@ -1,8 +1,12 @@
 User Interface options
 ======================
 
-As with many things in the open source world, there are a range of options.
-What follows is a summary of the main ones.
+Most of *Penguin Carpentry* is about integrating a desktop application you've
+already written. But if you're just getting started, one of the first things
+you'll need to figure out is what to use for the user interface.
+
+As with many things in the open source world, there are many different options.
+This is an overview of a few of the main ones.
 
 Desktop style: GTK or Qt
 ------------------------

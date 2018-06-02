@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Linux desktop app guide'
+project = 'Penguin Carpentry'
 copyright = '2018, Thomas Kluyver & contributors'
 author = 'Thomas Kluyver & contributors'
 

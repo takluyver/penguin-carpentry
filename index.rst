@@ -1,5 +1,5 @@
-Linux desktop app guide
-=======================
+Penguin Carpentry: Integrating apps on desktop Linux
+====================================================
 
 Desktop Linux can be a confusing world, with different desktops and
 distributions offering their own frameworks for application authors.
@@ -15,11 +15,9 @@ refer the 'Linux desktop' for convenience.
 
    ui
    launchers
-   file-associations
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
