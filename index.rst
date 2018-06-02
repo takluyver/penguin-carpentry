@@ -16,6 +16,7 @@ refer the 'Linux desktop' for convenience.
    ui
    launchers
    notifications
+   basedirs
 
 Indices and tables
 ==================

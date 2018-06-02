@@ -60,8 +60,9 @@ Your application's desktop entry is also used for
 There are a number of other optional fields you can use. See the links below
 for more information.
 
-These desktop files are placed in an ``applications`` subdirectory of each XDG
-data directory. If you have to put it in place yourself, the normal locations
+These desktop files are placed in an ``applications`` subdirectory of each
+:ref:`XDG data directory <basedirs-data>`.
+If you have to put it in place yourself, the normal locations
 are:
 
 * Per-user: ``~/.local/share/applications``
