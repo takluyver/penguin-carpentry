@@ -95,6 +95,16 @@ Then use the ``MimeType`` field to specify what MIME types it handles::
 
     MimeType=image/svg+xml;image/x-eps;
 
+There may be other applications that support the same MIME type.
+It's normally up to the user to pick the default application for a file type,
+but if you have a good reason to change it, you can use a ``mimeapps.list``
+file as described in the MIME associations specification.
+
+.. seealso::
+
+  `MIME application associations specification
+  <https://specifications.freedesktop.org/mime-apps-spec/mime-apps-spec-latest.html>`_
+
 If the file format you want to open isn't already defined on the system, you'll
 need to define a new MIME type for it.
 
@@ -105,7 +115,7 @@ Define a MIME type
 
 A MIME type is meant to be a unique name for a file format, like ``image/png``
 or ``text/x-makefile``. For new MIME types, the recommended format is
-:sample:`application/vnd.{org_name}.{app_name}`, filling in the
+:samp:`application/vnd.{org_name}.{app_name}`, filling in the
 organisation name and app or format name as appropriate (e.g. Libreoffice ODT
 files are ``application/vnd.oasis.opendocument.text``). You can add ``+json``
 or ``+xml`` to the end if your file format is based on one of these generic
@@ -123,7 +133,7 @@ MIME types are added to the system with XML files like this:
     </mime-type>
   </mime-info>
 
-The ``glob`` tag specifies a file extension for files with this MIME type.
+The ``<glob>`` tag specifies a file extension for files with this MIME type.
 Other fields can distinguish different file types sharing the same extension,
 but it's best to pick a unique extension. There's no need to limit the extension
 to three letters.
@@ -132,3 +142,8 @@ The filename of this XML file should start with the vendor name, e.g.
 ``acme-frobulate.xml``. Call ``xdg-mime install acme-frobulate.xml`` to install
 it. This will copy it into a directory such as ``/usr/local/share/mime/packages``,
 and rebuild the MIME database from all of these XML source files.
+
+.. seealso::
+
+  `Shared MIME-info database specification
+  <https://specifications.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html>`_
