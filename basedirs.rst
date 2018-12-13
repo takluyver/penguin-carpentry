@@ -58,7 +58,7 @@ it's a good idea to use a subdirectory to group together the files it uses.
   A path to a directory where application data should be stored.
   If empty or unset, the default is ``~/.local/share``.
 
-.. envvar:: XDG_CONFIG_DIRS
+.. envvar:: XDG_DATA_DIRS
 
   A colon-separated list of directories to look for application data files,
   in addition to ``XDG_DATA_HOME``.
